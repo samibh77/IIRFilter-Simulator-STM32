@@ -28,3 +28,8 @@ Ultimately, this method provides a **practical and cost-effective testbench** fo
 - Easily extendable to higher-order or other filter types (HPF, BPF).
 - Lightweight and optimized for embedded applications.
 
+## 📖 Detailed Documentation
+The complete mathematical derivations, STM32CubeIDE setup, and CubeMonitor test results  
+are provided in the documentation: 
+[stm32g474cb (2).pdf](https://github.com/user-attachments/files/21943098/stm32g474cb.2.pdf)
+
