@@ -1,7 +1,6 @@
 # STM32 Digital Filter Prototyping
 
 ## 📌 Overview
-## 📌 Overview
 This project focuses on the **implementation of an Infinite Impulse Response (IIR) digital filter** on an STM32 microcontroller.  
 The main goal is to create a low-cost and flexible environment for **digital prototyping of analog filters** directly on embedded hardware.  
 
