@@ -116,8 +116,7 @@ int main(void)
   for ( int i = 0; i < SAMPLES; i++ )
   {
 	  signal1_values[i] = ( uint32_t )( ( 0.5 + 0.5 * sin ( 2*3.14159*i/SAMPLES + noise ) ) * 4095 );
-	  noise = ((float)rand() / RAND_MAX - 0.5f) * 0.25f;;
-
+	  noise = ((float)rand() / RAND_MAX - 0.5f) * 0.25f;
   }
 
   HAL_DAC_Start_DMA ( &hdac1, DAC_CHANNEL_1, ( const uint32_t* )&signal1_values[0], SAMPLES, DAC_ALIGN_12B_R );
